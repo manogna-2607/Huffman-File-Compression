@@ -87,10 +87,10 @@ while len(heap) > 1:
 
     heapq.heappush(heap, merged)
 
-    print("Merged:", left.freq, "+", right.freq, "=", merged.freq)
+#print("Merged:", left.freq, "+", right.freq, "=", merged.freq)
 root = heap[0]
 
-print("Root Frequency:", root.freq)
+#print("Root Frequency:", root.freq)
 generate_codes(root, "")
 
 print("\nHuffman Codes:")
